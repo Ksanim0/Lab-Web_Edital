@@ -1,56 +1,4 @@
-DROP TABLE IF EXISTS `myTable`;
-
-CREATE TABLE `myTable` (
-  `id` mediumint(8) unsigned NOT NULL auto_increment,
-  `nome_completo` varchar(255) default NULL,
-  `nome_social` varchar(255) default NULL,
-  `endereco` varchar(255) default NULL,
-  `municipio` varchar(255),
-  `bairro` TEXT default NULL,
-  `estado` varchar(50) default NULL,
-  `cpf` varchar(100) default NULL,
-  `cep` varchar(100) default NULL,
-  `rg` varchar(100) default NULL,
-  `data_nasc` varchar(255),
-  `deficiencia` TEXT default NULL,
-  `genero` TEXT default NULL,
-  `curso` TEXT default NULL,
-  `portugues6` mediumint default NULL,
-  `portugues7` mediumint default NULL,
-  `portugues8` mediumint default NULL,
-  `portugues9` mediumint default NULL,
-  `matematica6` mediumint default NULL,
-  `matematica7` mediumint default NULL,
-  `matematica8` mediumint default NULL,
-  `matematica9` mediumint default NULL,
-  `ciencias6` mediumint default NULL,
-  `ciencias7` mediumint default NULL,
-  `ciencias8` mediumint default NULL,
-  `ciencias9` mediumint default NULL,
-  `historia6` mediumint default NULL,
-  `historia7` mediumint default NULL,
-  `historia8` mediumint default NULL,
-  `historia9` mediumint default NULL,
-  `geografia6` mediumint default NULL,
-  `geografia7` mediumint default NULL,
-  `geografia8` mediumint default NULL,
-  `geografia9` mediumint default NULL,
-  `ingles6` mediumint default NULL,
-  `ingles7` mediumint default NULL,
-  `ingles8` mediumint default NULL,
-  `ingles9` mediumint default NULL,
-  `artes6` mediumint default NULL,
-  `artes7` mediumint default NULL,
-  `artes8` mediumint default NULL,
-  `artes9` mediumint default NULL,
-  `edfisica6` mediumint default NULL,
-  `edfisica7` mediumint default NULL,
-  `edfisica8` mediumint default NULL,
-  `edfisica9` mediumint default NULL,
-  PRIMARY KEY (`id`)
-) AUTO_INCREMENT=1;
-
-INSERT INTO `myTable` (`nome_completo`,`nome_social`,`endereco`,`municipio`,`bairro`,`estado`,`cpf`,`cep`,`rg`,`data_nasc`,`deficiencia`,`genero`,`curso`,`portugues6`,`portugues7`,`portugues8`,`portugues9`,`matematica6`,`matematica7`,`matematica8`,`matematica9`,`ciencias6`,`ciencias7`,`ciencias8`,`ciencias9`,`historia6`,`historia7`,`historia8`,`historia9`,`geografia6`,`geografia7`,`geografia8`,`geografia9`,`ingles6`,`ingles7`,`ingles8`,`ingles9`,`artes6`,`artes7`,`artes8`,`artes9`,`edfisica6`,`edfisica7`,`edfisica8`,`edfisica9`)
+INSERT INTO `aluno` (`nome_completo`,`nome_social`,`endereco`,`municipio`,`bairro`,`estado`,`cpf`,`cep`,`rg`,`data_nasc`,`deficiencia`,`genero`,`curso`,`portugues6`,`portugues7`,`portugues8`,`portugues9`,`matematica6`,`matematica7`,`matematica8`,`matematica9`,`ciencias6`,`ciencias7`,`ciencias8`,`ciencias9`,`historia6`,`historia7`,`historia8`,`historia9`,`geografia6`,`geografia7`,`geografia8`,`geografia9`,`ingles6`,`ingles7`,`ingles8`,`ingles9`,`artes6`,`artes7`,`artes8`,`artes9`,`edfisica6`,`edfisica7`,`edfisica8`,`edfisica9`)
 VALUES
   ("Luiz Eduardo Leite","Nomlanga","7980 Erat Rd.","São José","CidadeNova","PE","44755222561","41566320","49701153.427","12/04/2008","Surdez","Masculino","Comercio",2,0,9,5,10,8,4,0,2,5,1,5,6,2,2,7,1,9,6,8,3,5,1,7,2,2,5,7,8,1,1,2),
   ("João Pedro da Silva","Wing","874-6850 Tincidunt Rd.","Anápolis","BelaVida","GO","16258389487","59890574","75333493.911","30/01/2007","TEA","Outro","Comercio",8,7,4,5,4,9,1,6,10,4,9,5,4,4,8,2,3,5,4,9,8,2,2,10,2,2,6,7,6,3,1,7),
@@ -62,7 +10,7 @@ VALUES
   ("Isaac Rezende","Gretchen","591-7307 Tempor Avenue","Jundiaí","DistritoComercial","CE","62411639183","72115793","22817134.625","29/03/2006","Cegueira","Outro","Comercio",9,9,8,6,1,4,7,10,3,4,2,5,1,9,1,3,1,10,1,6,10,2,4,6,8,5,1,8,8,4,5,7),
   ("Gael Ramos","Paki","Ap #279-8586 Nisi Rd.","Sousa","CidadeUniversitáriaLeste","PB","94274200396","81983963","31844387.758","01/12/2008","Cegueira","Outro","Comercio",1,6,8,4,3,3,7,9,8,5,1,9,7,6,2,1,7,7,4,8,1,3,10,8,3,5,1,9,9,10,5,6),
   ("Isaac Paiva","Karyn","Ap #533-377 Amet Av.","Santarém","Cajás","PA","51879061492","04720781","16298480.893","23/10/2007","DeficienciaMultipla","Feminino","Comercio",9,4,4,10,6,3,3,4,3,4,2,4,0,2,6,7,7,9,3,8,5,2,3,8,9,7,2,6,6,5,1,9);
-INSERT INTO `myTable` (`nome_completo`,`nome_social`,`endereco`,`municipio`,`bairro`,`estado`,`cpf`,`cep`,`rg`,`data_nasc`,`deficiencia`,`genero`,`curso`,`portugues6`,`portugues7`,`portugues8`,`portugues9`,`matematica6`,`matematica7`,`matematica8`,`matematica9`,`ciencias6`,`ciencias7`,`ciencias8`,`ciencias9`,`historia6`,`historia7`,`historia8`,`historia9`,`geografia6`,`geografia7`,`geografia8`,`geografia9`,`ingles6`,`ingles7`,`ingles8`,`ingles9`,`artes6`,`artes7`,`artes8`,`artes9`,`edfisica6`,`edfisica7`,`edfisica8`,`edfisica9`)
+INSERT INTO `aluno` (`nome_completo`,`nome_social`,`endereco`,`municipio`,`bairro`,`estado`,`cpf`,`cep`,`rg`,`data_nasc`,`deficiencia`,`genero`,`curso`,`portugues6`,`portugues7`,`portugues8`,`portugues9`,`matematica6`,`matematica7`,`matematica8`,`matematica9`,`ciencias6`,`ciencias7`,`ciencias8`,`ciencias9`,`historia6`,`historia7`,`historia8`,`historia9`,`geografia6`,`geografia7`,`geografia8`,`geografia9`,`ingles6`,`ingles7`,`ingles8`,`ingles9`,`artes6`,`artes7`,`artes8`,`artes9`,`edfisica6`,`edfisica7`,`edfisica8`,`edfisica9`)
 VALUES
   ("Ruan de Castro","Karly","713-8029 Vel St.","Itabuna","Cajás","MA","62658863444","33757958","51226735.125","13/04/2007","DeficienciaMultipla","Feminino","Comercio",8,9,9,7,2,3,4,2,7,6,1,9,5,6,7,9,6,10,9,7,2,2,7,0,9,6,6,4,7,9,6,3),
   ("Cauã Barboza","Arden","656-7927 Risus. Av.","Castanhal","CidadeNova","MG","75843172823","54089056","01594431.765","01/12/2006","Nenhuma","Masculino","Comercio",5,8,0,6,4,1,5,0,0,8,7,8,3,3,4,5,9,8,6,2,8,5,6,8,9,7,5,10,9,9,9,2),
@@ -74,7 +22,7 @@ VALUES
   ("Emanuel Bento","Mufutau","P.O. Box 203, 5191 Amet Av.","Osasco","SãoJosé","RJ","22238949563","54821947","42589472.487","16/08/2006","BaixãoVisão","Feminino","Comercio",1,5,7,8,1,6,3,5,4,5,10,9,3,9,2,8,7,9,6,1,8,8,9,4,1,8,6,0,8,3,8,7),
   ("João Guilherme Aguiar","Brennan","627-6870 Quisque Av.","Luziânia","CidadeNova","MG","47417347435","32630739","42975460.838","02/06/2008","Surdocegueira","Feminino","Comercio",10,3,1,8,0,6,2,5,2,9,2,8,1,7,3,3,7,0,6,4,8,6,0,1,8,6,2,3,3,1,4,1),
   ("José Augusto Brandao","Beck","8366 Donec St.","João Pessoa","BairroSãoVicente","GO","52545638196","18246803","23119566.558","29/06/2006","Nenhuma","Feminino","Comercio",2,5,7,3,5,2,9,5,4,9,5,5,3,4,8,6,2,4,0,8,7,5,6,1,10,2,1,2,0,3,9,7);
-INSERT INTO `myTable` (`nome_completo`,`nome_social`,`endereco`,`municipio`,`bairro`,`estado`,`cpf`,`cep`,`rg`,`data_nasc`,`deficiencia`,`genero`,`curso`,`portugues6`,`portugues7`,`portugues8`,`portugues9`,`matematica6`,`matematica7`,`matematica8`,`matematica9`,`ciencias6`,`ciencias7`,`ciencias8`,`ciencias9`,`historia6`,`historia7`,`historia8`,`historia9`,`geografia6`,`geografia7`,`geografia8`,`geografia9`,`ingles6`,`ingles7`,`ingles8`,`ingles9`,`artes6`,`artes7`,`artes8`,`artes9`,`edfisica6`,`edfisica7`,`edfisica8`,`edfisica9`)
+INSERT INTO `aluno` (`nome_completo`,`nome_social`,`endereco`,`municipio`,`bairro`,`estado`,`cpf`,`cep`,`rg`,`data_nasc`,`deficiencia`,`genero`,`curso`,`portugues6`,`portugues7`,`portugues8`,`portugues9`,`matematica6`,`matematica7`,`matematica8`,`matematica9`,`ciencias6`,`ciencias7`,`ciencias8`,`ciencias9`,`historia6`,`historia7`,`historia8`,`historia9`,`geografia6`,`geografia7`,`geografia8`,`geografia9`,`ingles6`,`ingles7`,`ingles8`,`ingles9`,`artes6`,`artes7`,`artes8`,`artes9`,`edfisica6`,`edfisica7`,`edfisica8`,`edfisica9`)
 VALUES
   ("Théo Abreu","Leonard","413-9222 Arcu. Rd.","Blumenau","MoradadosVentosI","MG","67020844763","03616844","76666893.321","20/10/2007","Cegueira","Outro","Comercio",4,7,4,3,3,2,0,2,1,8,8,3,8,5,5,9,4,0,5,6,4,10,9,6,4,6,5,7,1,7,1,6),
   ("Frederico Candido","Clio","878-5698 Elementum Avenue","Petrolina","DistritoIndustrial","MA","24534408502","64246231","51792597.643","14/09/2006","TEA","Masculino","Comercio",7,2,10,9,7,0,7,7,5,7,8,9,3,2,1,3,1,3,6,8,7,7,9,2,2,3,2,3,7,3,9,2),
@@ -86,7 +34,7 @@ VALUES
   ("Murilo Alves","Iris","Ap #936-392 Sodales Ave","Rio de Janeiro","DomFragoso","PB","36215171458","33511336","89113726.576","01/12/2008","TEA","Feminino","Comercio",6,9,2,1,3,1,4,6,10,6,9,9,3,3,4,3,7,9,3,10,8,2,6,10,8,9,10,7,3,1,1,2),
   ("William Faria","Shay","Ap #807-618 Magna. St.","Cametá","Planalto","BA","47741224639","88768588","71764169.594","22/06/2007","Surdocegueira","Masculino","Comercio",4,7,6,1,2,8,1,2,4,9,9,10,2,5,3,5,2,2,2,3,10,7,1,9,5,3,6,2,6,7,7,10),
   ("Arthur Gomes","Kylie","Ap #402-7227 In Rd.","Mogi das Cruzes","CidadeUniversitária","RJ","96127847180","76707882","35148535.612","07/04/2008","Surdocegueira","Feminino","Comercio",8,1,6,5,0,8,1,5,7,4,5,8,7,5,2,7,4,1,0,4,0,0,6,8,6,3,7,1,3,1,3,8);
-INSERT INTO `myTable` (`nome_completo`,`nome_social`,`endereco`,`municipio`,`bairro`,`estado`,`cpf`,`cep`,`rg`,`data_nasc`,`deficiencia`,`genero`,`curso`,`portugues6`,`portugues7`,`portugues8`,`portugues9`,`matematica6`,`matematica7`,`matematica8`,`matematica9`,`ciencias6`,`ciencias7`,`ciencias8`,`ciencias9`,`historia6`,`historia7`,`historia8`,`historia9`,`geografia6`,`geografia7`,`geografia8`,`geografia9`,`ingles6`,`ingles7`,`ingles8`,`ingles9`,`artes6`,`artes7`,`artes8`,`artes9`,`edfisica6`,`edfisica7`,`edfisica8`,`edfisica9`)
+INSERT INTO `aluno` (`nome_completo`,`nome_social`,`endereco`,`municipio`,`bairro`,`estado`,`cpf`,`cep`,`rg`,`data_nasc`,`deficiencia`,`genero`,`curso`,`portugues6`,`portugues7`,`portugues8`,`portugues9`,`matematica6`,`matematica7`,`matematica8`,`matematica9`,`ciencias6`,`ciencias7`,`ciencias8`,`ciencias9`,`historia6`,`historia7`,`historia8`,`historia9`,`geografia6`,`geografia7`,`geografia8`,`geografia9`,`ingles6`,`ingles7`,`ingles8`,`ingles9`,`artes6`,`artes7`,`artes8`,`artes9`,`edfisica6`,`edfisica7`,`edfisica8`,`edfisica9`)
 VALUES
   ("Diego Duarte","Herman","3945 Lectus Street","Guarapuava","Cajás","CE","79755739247","80265233","66429468.423","12/02/2008","Surdez","Feminino","Comercio",0,4,9,1,7,2,7,0,10,5,2,4,4,5,8,2,0,6,2,7,4,5,5,3,8,6,9,1,5,8,2,3),
   ("André Araujo","Laura","121-366 Nunc St.","Canoas","DistritoComercial","MA","35471114639","74543348","81350549.921","18/04/2008","Surdez","Feminino","Comercio",1,1,7,0,1,6,8,7,3,7,10,10,0,3,2,5,1,5,2,3,1,5,7,2,9,7,7,7,5,0,3,3),
@@ -98,7 +46,7 @@ VALUES
   ("Felipe Queiroz","Callie","105-1800 Libero Ave","Osasco","Ipase","BA","54951716560","82129827","10739095.217","10/10/2007","DeficienciaIntelectual","Masculino","Comercio",9,4,7,7,2,6,2,8,1,4,5,8,3,10,8,0,4,3,2,8,0,6,6,5,4,8,6,4,1,6,7,9),
   ("Davi Miguel Barreto","Lucius","262-4372 Curabitur Avenue","Cajazeiras","DistritoIndustrial","PE","14437332985","82421988","26874588.273","08/01/2006","Surdocegueira","Outro","Comercio",0,3,2,8,1,8,7,2,10,5,6,7,8,8,7,5,8,9,8,7,2,4,4,7,7,6,8,4,9,4,10,3),
   ("Thales Sales","Preston","P.O. Box 514, 1202 Augue, Street","Paranaguá","SãoJosé","PE","88642725219","77296747","67718505.243","17/04/2006","DeficienciaAuditiva","Outro","Comercio",8,4,1,2,3,6,4,7,4,10,4,2,7,5,10,1,4,7,5,0,1,9,3,8,9,1,5,6,2,4,3,10);
-INSERT INTO `myTable` (`nome_completo`,`nome_social`,`endereco`,`municipio`,`bairro`,`estado`,`cpf`,`cep`,`rg`,`data_nasc`,`deficiencia`,`genero`,`curso`,`portugues6`,`portugues7`,`portugues8`,`portugues9`,`matematica6`,`matematica7`,`matematica8`,`matematica9`,`ciencias6`,`ciencias7`,`ciencias8`,`ciencias9`,`historia6`,`historia7`,`historia8`,`historia9`,`geografia6`,`geografia7`,`geografia8`,`geografia9`,`ingles6`,`ingles7`,`ingles8`,`ingles9`,`artes6`,`artes7`,`artes8`,`artes9`,`edfisica6`,`edfisica7`,`edfisica8`,`edfisica9`)
+INSERT INTO `aluno` (`nome_completo`,`nome_social`,`endereco`,`municipio`,`bairro`,`estado`,`cpf`,`cep`,`rg`,`data_nasc`,`deficiencia`,`genero`,`curso`,`portugues6`,`portugues7`,`portugues8`,`portugues9`,`matematica6`,`matematica7`,`matematica8`,`matematica9`,`ciencias6`,`ciencias7`,`ciencias8`,`ciencias9`,`historia6`,`historia7`,`historia8`,`historia9`,`geografia6`,`geografia7`,`geografia8`,`geografia9`,`ingles6`,`ingles7`,`ingles8`,`ingles9`,`artes6`,`artes7`,`artes8`,`artes9`,`edfisica6`,`edfisica7`,`edfisica8`,`edfisica9`)
 VALUES
   ("Enzo Soares","Armand","149-4195 Rutrum. Rd.","Florianópolis","CidadeNova","PB","32445546255","98818663","53377211.113","04/11/2006","BaixãoVisão","Outro","Comercio",7,7,5,8,5,5,7,3,2,6,3,8,3,8,8,10,9,1,3,2,9,0,9,9,9,4,4,3,9,0,2,6),
   ("Leonardo Barbosa","Omar","Ap #244-4188 Ornare, Street","Camaçari","Cidade2000","PE","75657175385","91711666","33662367.428","08/02/2007","Cegueira","Feminino","Comercio",2,4,7,10,9,1,8,1,5,4,2,8,5,7,6,1,5,5,6,6,0,5,8,10,7,7,5,4,6,5,1,2),
@@ -110,7 +58,7 @@ VALUES
   ("José Lucas da Cunha","Troy","Ap #448-4892 Cras Ave","Sobral","Altamira","PR","66205810868","12022737","83627585.718","22/06/2007","Cegueira","Feminino","Comercio",5,2,6,8,2,9,9,8,10,9,4,0,6,10,7,5,7,3,9,2,2,5,0,0,4,3,3,3,5,5,2,6),
   ("Pietro Henrique da Rocha","Roary","P.O. Box 226, 2305 Sed, Avenue","Diadema","CidadeUniversitáriaLeste","PA","82651851323","62895581","96339244.763","07/10/2007","TEA","Feminino","Comercio",7,10,4,4,4,3,0,7,8,9,4,7,1,7,6,9,5,7,5,4,2,2,9,9,9,0,5,10,4,1,0,5),
   ("Pedro Gabriel da Cruz","Hasad","512-3368 Blandit. St.","Ponta Grossa","CampoVelho","SC","87380283677","75757327","79372737.568","10/04/2008","DeficienciaMultipla","Feminino","Comercio",3,3,9,3,3,10,8,6,10,5,9,8,4,2,7,8,4,6,1,10,8,9,2,5,6,3,2,8,7,7,0,3);
-INSERT INTO `myTable` (`nome_completo`,`nome_social`,`endereco`,`municipio`,`bairro`,`estado`,`cpf`,`cep`,`rg`,`data_nasc`,`deficiencia`,`genero`,`curso`,`portugues6`,`portugues7`,`portugues8`,`portugues9`,`matematica6`,`matematica7`,`matematica8`,`matematica9`,`ciencias6`,`ciencias7`,`ciencias8`,`ciencias9`,`historia6`,`historia7`,`historia8`,`historia9`,`geografia6`,`geografia7`,`geografia8`,`geografia9`,`ingles6`,`ingles7`,`ingles8`,`ingles9`,`artes6`,`artes7`,`artes8`,`artes9`,`edfisica6`,`edfisica7`,`edfisica8`,`edfisica9`)
+INSERT INTO `aluno` (`nome_completo`,`nome_social`,`endereco`,`municipio`,`bairro`,`estado`,`cpf`,`cep`,`rg`,`data_nasc`,`deficiencia`,`genero`,`curso`,`portugues6`,`portugues7`,`portugues8`,`portugues9`,`matematica6`,`matematica7`,`matematica8`,`matematica9`,`ciencias6`,`ciencias7`,`ciencias8`,`ciencias9`,`historia6`,`historia7`,`historia8`,`historia9`,`geografia6`,`geografia7`,`geografia8`,`geografia9`,`ingles6`,`ingles7`,`ingles8`,`ingles9`,`artes6`,`artes7`,`artes8`,`artes9`,`edfisica6`,`edfisica7`,`edfisica8`,`edfisica9`)
 VALUES
   ("Otávio Tavares","Thomas","990-4324 In Ave","Carapicuíba","VenânciosII","PA","45967873154","46422034","51273515.641","11/09/2007","DeficienciaAuditiva","Masculino","Comercio",7,1,10,4,9,3,7,1,9,9,1,9,1,5,6,1,4,4,7,2,1,5,4,0,6,9,2,5,0,3,9,7),
   ("Bernardo Correa","Jaden","850-8320 Rhoncus. Rd.","Camaragibe","CidadeUniversitária","PE","12081844744","50859215","47986488.473","01/11/2008","Surdocegueira","Feminino","Comercio",2,10,9,5,9,4,3,5,7,0,0,8,9,4,2,0,7,0,4,7,9,7,5,4,2,2,8,7,8,1,2,6),
@@ -122,7 +70,7 @@ VALUES
   ("Vitor Tavares","Gray","Ap #445-8394 In Road","Cabo de Santo Agostinho","Planalto","RS","66583328244","43658134","54824523.643","11/05/2006","Surdocegueira","Feminino","Comercio",6,3,1,4,9,9,4,5,1,4,1,8,3,8,1,8,9,9,7,6,3,9,4,4,7,4,8,4,6,4,1,6),
   ("Luiz Antônio Carneiro","Ori","305-5205 Nullam Rd.","Juazeiro do Norte","Cajás","PE","94821054636","52055153","32218438.434","03/03/2006","DeficienciaMultipla","Feminino","Comercio",0,4,9,7,1,9,7,7,7,6,6,7,8,8,1,2,9,4,8,10,6,0,1,10,7,0,10,9,3,4,4,2),
   ("Pedro Henrique Matos","Lacey","Ap #607-229 Mauris, Road","Anápolis","PontePreta","MG","52064418224","88206457","73132263.904","06/01/2007","TEA","Masculino","Comercio",8,2,9,2,6,6,3,4,3,4,3,6,6,3,0,5,5,6,2,5,3,6,4,2,3,0,4,4,9,4,1,4);
-INSERT INTO `myTable` (`nome_completo`,`nome_social`,`endereco`,`municipio`,`bairro`,`estado`,`cpf`,`cep`,`rg`,`data_nasc`,`deficiencia`,`genero`,`curso`,`portugues6`,`portugues7`,`portugues8`,`portugues9`,`matematica6`,`matematica7`,`matematica8`,`matematica9`,`ciencias6`,`ciencias7`,`ciencias8`,`ciencias9`,`historia6`,`historia7`,`historia8`,`historia9`,`geografia6`,`geografia7`,`geografia8`,`geografia9`,`ingles6`,`ingles7`,`ingles8`,`ingles9`,`artes6`,`artes7`,`artes8`,`artes9`,`edfisica6`,`edfisica7`,`edfisica8`,`edfisica9`)
+INSERT INTO `aluno` (`nome_completo`,`nome_social`,`endereco`,`municipio`,`bairro`,`estado`,`cpf`,`cep`,`rg`,`data_nasc`,`deficiencia`,`genero`,`curso`,`portugues6`,`portugues7`,`portugues8`,`portugues9`,`matematica6`,`matematica7`,`matematica8`,`matematica9`,`ciencias6`,`ciencias7`,`ciencias8`,`ciencias9`,`historia6`,`historia7`,`historia8`,`historia9`,`geografia6`,`geografia7`,`geografia8`,`geografia9`,`ingles6`,`ingles7`,`ingles8`,`ingles9`,`artes6`,`artes7`,`artes8`,`artes9`,`edfisica6`,`edfisica7`,`edfisica8`,`edfisica9`)
 VALUES
   ("Luiz Miguel Freire","Kylee","P.O. Box 270, 9221 Porttitor St.","João Pessoa","VenânciosI","SP","49455855142","18580432","16284847.528","20/02/2006","DeficienciaIntelectual","Masculino","Comercio",4,4,9,9,3,5,6,8,8,7,8,4,3,10,6,5,5,8,7,10,3,3,1,2,2,10,0,8,3,2,10,1),
   ("Adrian de Jesus","Omar","433-3949 Proin Street","Cametá","BairroSãoVicente","MG","04355275282","74573173","86294362.123","03/04/2008","Cegueira","Masculino","Comercio",1,1,10,7,1,7,3,10,9,8,5,9,9,6,1,4,9,9,7,8,1,2,9,8,3,8,8,3,8,6,9,5),
@@ -134,7 +82,7 @@ VALUES
   ("Pietro Henrique Das Chagas","Kellie","7867 Neque Rd.","Paulista","Altamira","CE","10705337862","40262760","65238321.943","17/02/2008","DeficienciaAuditiva","Feminino","Comercio",9,3,6,4,3,7,7,2,7,5,5,0,5,9,5,8,1,0,7,8,1,5,6,1,6,9,0,6,10,4,3,1),
   ("Israel Monteiro","Miriam","179-3587 Aliquet Ave","Juazeiro do Norte","Maratoan","PR","26778131323","26804421","43823115.534","26/01/2006","DeficienciaAuditiva","Masculino","Comercio",3,3,5,1,8,4,5,8,2,6,9,10,10,2,1,0,6,4,2,9,1,8,8,8,8,2,3,7,7,5,2,5),
   ("Luiz Fernando Barros","Kadeem","537-9750 Phasellus Rd.","Bayeux","Maratoan","MG","72725889241","15769529","41181315.542","11/07/2008","Cegueira","Feminino","Comercio",5,7,4,5,4,8,0,6,9,8,6,9,9,7,2,9,0,3,8,1,5,3,9,6,8,7,1,8,9,4,9,1);
-INSERT INTO `myTable` (`nome_completo`,`nome_social`,`endereco`,`municipio`,`bairro`,`estado`,`cpf`,`cep`,`rg`,`data_nasc`,`deficiencia`,`genero`,`curso`,`portugues6`,`portugues7`,`portugues8`,`portugues9`,`matematica6`,`matematica7`,`matematica8`,`matematica9`,`ciencias6`,`ciencias7`,`ciencias8`,`ciencias9`,`historia6`,`historia7`,`historia8`,`historia9`,`geografia6`,`geografia7`,`geografia8`,`geografia9`,`ingles6`,`ingles7`,`ingles8`,`ingles9`,`artes6`,`artes7`,`artes8`,`artes9`,`edfisica6`,`edfisica7`,`edfisica8`,`edfisica9`)
+INSERT INTO `aluno` (`nome_completo`,`nome_social`,`endereco`,`municipio`,`bairro`,`estado`,`cpf`,`cep`,`rg`,`data_nasc`,`deficiencia`,`genero`,`curso`,`portugues6`,`portugues7`,`portugues8`,`portugues9`,`matematica6`,`matematica7`,`matematica8`,`matematica9`,`ciencias6`,`ciencias7`,`ciencias8`,`ciencias9`,`historia6`,`historia7`,`historia8`,`historia9`,`geografia6`,`geografia7`,`geografia8`,`geografia9`,`ingles6`,`ingles7`,`ingles8`,`ingles9`,`artes6`,`artes7`,`artes8`,`artes9`,`edfisica6`,`edfisica7`,`edfisica8`,`edfisica9`)
 VALUES
   ("Bryan Lemos","Zachary","P.O. Box 496, 6961 Tempor Street","Luziânia","CidadeNova","BA","52268508115","40533142","63715648.862","11/02/2007","DeficienciaIntelectual","Feminino","Comercio",3,4,6,9,2,4,9,7,9,2,9,2,4,5,7,7,0,6,7,10,0,7,2,6,6,0,1,1,4,9,7,7),
   ("Noah Araujo","Minerva","Ap #980-1271 Placerat, Road","Itabuna","CidadeUniversitária","SC","23989641311","81751442","64170139.110","06/08/2007","TEA","Outro","Comercio",10,2,9,2,9,4,6,1,8,5,9,7,5,6,8,1,8,0,9,2,10,2,1,2,4,1,2,3,9,0,9,5),
@@ -146,7 +94,7 @@ VALUES
   ("João Farias","Charde","Ap #763-4333 Pellentesque Road","Carapicuíba","CampoVelho","RS","41533803728","98717395","80268411.508","13/06/2007","BaixãoVisão","Feminino","Comercio",1,0,3,10,2,6,10,10,3,10,6,2,2,6,7,4,8,7,6,0,6,5,8,6,3,1,1,9,3,4,3,9),
   ("Gael Azevedo","Maryam","P.O. Box 668, 3289 Dictum. Street","Foz do Iguaçu","SantaLuzia","SC","54641229656","20446764","23753441.231","17/05/2008","Surdez","Masculino","Comercio",8,9,2,1,9,10,10,10,9,6,6,7,8,4,2,7,5,4,3,2,9,0,3,3,10,1,2,10,1,0,2,6),
   ("Santiago Bispo","Meredith","555-8427 Dui. Road","Divinópolis","Patriarcas","RJ","35349037327","07417833","33243431.683","28/04/2006","TEA","Masculino","Comercio",1,3,10,1,5,3,2,2,5,1,0,1,1,3,5,4,6,2,8,9,6,1,3,6,4,4,9,7,2,8,0,4);
-INSERT INTO `myTable` (`nome_completo`,`nome_social`,`endereco`,`municipio`,`bairro`,`estado`,`cpf`,`cep`,`rg`,`data_nasc`,`deficiencia`,`genero`,`curso`,`portugues6`,`portugues7`,`portugues8`,`portugues9`,`matematica6`,`matematica7`,`matematica8`,`matematica9`,`ciencias6`,`ciencias7`,`ciencias8`,`ciencias9`,`historia6`,`historia7`,`historia8`,`historia9`,`geografia6`,`geografia7`,`geografia8`,`geografia9`,`ingles6`,`ingles7`,`ingles8`,`ingles9`,`artes6`,`artes7`,`artes8`,`artes9`,`edfisica6`,`edfisica7`,`edfisica8`,`edfisica9`)
+INSERT INTO `aluno` (`nome_completo`,`nome_social`,`endereco`,`municipio`,`bairro`,`estado`,`cpf`,`cep`,`rg`,`data_nasc`,`deficiencia`,`genero`,`curso`,`portugues6`,`portugues7`,`portugues8`,`portugues9`,`matematica6`,`matematica7`,`matematica8`,`matematica9`,`ciencias6`,`ciencias7`,`ciencias8`,`ciencias9`,`historia6`,`historia7`,`historia8`,`historia9`,`geografia6`,`geografia7`,`geografia8`,`geografia9`,`ingles6`,`ingles7`,`ingles8`,`ingles9`,`artes6`,`artes7`,`artes8`,`artes9`,`edfisica6`,`edfisica7`,`edfisica8`,`edfisica9`)
 VALUES
   ("Davi Henrique Domingues","Marsden","Ap #592-6491 Sem Street","Olinda","FátimaII","PB","51162218532","35193919","16569080.755","24/10/2007","Nenhuma","Masculino","Comercio",7,7,6,7,5,7,2,2,9,8,6,3,4,1,6,5,7,8,8,1,10,9,4,5,5,9,7,8,10,6,9,2),
   ("Henrique Machado","Wade","179-7721 Lacinia Avenue","Ananindeua","Terra","PR","87200332967","04849186","21756647.214","28/03/2007","DeficienciaIntelectual","Outro","Comercio",5,0,4,0,2,4,8,3,9,7,3,1,9,6,10,5,10,0,9,3,9,1,6,5,5,7,5,3,7,0,5,9),
@@ -158,7 +106,7 @@ VALUES
   ("Matheus de Jesus","Cullen","Ap #661-1316 Mauris Ave","Caxias","DistritoComercial","RJ","72740611081","08870066","34703423.762","23/05/2006","Surdocegueira","Feminino","Comercio",3,2,6,6,10,7,8,0,1,4,2,3,10,2,7,8,8,6,8,1,3,5,8,8,1,7,6,6,9,1,7,5),
   ("Luiz Otávio Domingues","Gay","Ap #252-2211 Ullamcorper. Av.","Foz do Iguaçu","NossaSenhoradasGraças;","MG","48828524752","47572324","41228761.724","23/05/2008","TEA","Feminino","Comercio",8,5,8,2,7,6,10,8,7,0,10,3,3,10,9,3,3,1,8,5,4,6,6,1,1,7,2,10,2,8,0,8),
   ("Lorenzo Gabriel Mariano","Tallulah","Ap #620-1387 Nibh St.","Florianópolis","MoradadosVentosI","SC","67986172617","26416519","38032141.157","24/03/2008","Nenhuma","Masculino","Comercio",9,4,2,9,3,6,7,5,2,2,4,8,6,0,3,10,7,6,7,8,7,5,1,3,7,2,9,7,5,6,7,0);
-INSERT INTO `myTable` (`nome_completo`,`nome_social`,`endereco`,`municipio`,`bairro`,`estado`,`cpf`,`cep`,`rg`,`data_nasc`,`deficiencia`,`genero`,`curso`,`portugues6`,`portugues7`,`portugues8`,`portugues9`,`matematica6`,`matematica7`,`matematica8`,`matematica9`,`ciencias6`,`ciencias7`,`ciencias8`,`ciencias9`,`historia6`,`historia7`,`historia8`,`historia9`,`geografia6`,`geografia7`,`geografia8`,`geografia9`,`ingles6`,`ingles7`,`ingles8`,`ingles9`,`artes6`,`artes7`,`artes8`,`artes9`,`edfisica6`,`edfisica7`,`edfisica8`,`edfisica9`)
+INSERT INTO `aluno` (`nome_completo`,`nome_social`,`endereco`,`municipio`,`bairro`,`estado`,`cpf`,`cep`,`rg`,`data_nasc`,`deficiencia`,`genero`,`curso`,`portugues6`,`portugues7`,`portugues8`,`portugues9`,`matematica6`,`matematica7`,`matematica8`,`matematica9`,`ciencias6`,`ciencias7`,`ciencias8`,`ciencias9`,`historia6`,`historia7`,`historia8`,`historia9`,`geografia6`,`geografia7`,`geografia8`,`geografia9`,`ingles6`,`ingles7`,`ingles8`,`ingles9`,`artes6`,`artes7`,`artes8`,`artes9`,`edfisica6`,`edfisica7`,`edfisica8`,`edfisica9`)
 VALUES
   ("José Lucas Silveira","Sonia","Ap #636-7045 Euismod Av.","Jaboatão dos Guararapes","DistritoComercial","PR","35518084238","12125178","97612067.015","14/10/2007","Cegueira","Outro","Comercio",7,7,1,4,6,2,2,3,6,9,6,8,1,6,3,4,1,2,9,7,8,8,2,6,1,0,5,4,1,3,2,2),
   ("Eduardo Torres","Athena","722-6612 Sem Avenue","Valparaíso de Goiás","MoradadosVentosI","BA","10173337230","83136652","61358391.348","27/01/2008","DeficienciaIntelectual","Outro","Comercio",2,9,9,2,3,6,6,3,6,8,0,0,3,4,7,2,6,3,8,6,5,1,3,9,7,4,2,8,2,4,9,1),
