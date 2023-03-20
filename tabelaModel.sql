@@ -8,7 +8,7 @@ CREATE TABLE aluno (
   `estado` varchar(50) default NULL,
   `cpf` varchar(50) default NULL,
   `cep` varchar(50) default NULL,
-  `rg` mediumint default NULL,
+  `rg` varchar(50) default NULL,
   `data_nasc` varchar(255),
   `deficiencia` TEXT default NULL,
   `genero` TEXT default NULL,
