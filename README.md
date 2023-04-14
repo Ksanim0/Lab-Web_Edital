@@ -16,7 +16,7 @@
     <img src="https://img.shields.io/badge/-Instagram-ff3a5e?style=for-the-badge&logo=Instagram&logoColor=FFF"/>
   </a>
  
-## ✨ Contributors
+## ✨ Contribuidores 
 
 <a href="https://github.com/Ksanim0/Lab-Web_Edital/graphs/contributors">
 
