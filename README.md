@@ -16,3 +16,10 @@
     <img src="https://img.shields.io/badge/-Instagram-ff3a5e?style=for-the-badge&logo=Instagram&logoColor=FFF"/>
   </a>
  
+## ✨ Contributors
+
+<a href="https://github.com/withfig/autocomplete/graphs/contributors">
+
+  <img alt="Grid of profile icons of the 200+ contributors" src="https://contrib.rocks/image?repo=withfig/autocomplete" />
+
+</a>
