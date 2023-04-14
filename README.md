@@ -9,7 +9,7 @@
 
 </br>
 
-<h3>Redes sociais da escola:</h3> 
+## Redes sociais da escola:
 
 <div align="left">
   <a href="https://www.instagram.com/eeepmanoelmano/" alt="Instagram">
