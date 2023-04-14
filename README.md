@@ -20,6 +20,6 @@
 
 <a href="https://github.com/Ksanim0/Lab-Web_Edital/graphs/contributors">
 
-  <img alt="Grid of profile icons of the 200+ contributors" src="https://contrib.rocks/image?repo=withfig/autocomplete" />
+  <img alt="Grid of profile icons of the 200+ contributors" src="https://contrib.rocks/image?repo=Ksanim0/Lab-Web_Edital" />
 
 </a>
