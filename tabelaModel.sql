@@ -1,5 +1,5 @@
 CREATE TABLE aluno (
-  `id` mediumint(8) unsigned NOT NULL auto_increment,
+  `id` mediumint(8) unsigned NOT NULL auto_increment PRIMARY KEY,
   `nome_completo` varchar(255) default NULL,
   `nome_social` varchar(255) default NULL,
   `endereco` varchar(255) default NULL,
@@ -12,7 +12,7 @@ CREATE TABLE aluno (
   `data_nasc` varchar(255),
   `deficiencia` TEXT default NULL,
   `genero` TEXT default NULL,
-  `curso` TEXT default NULL,
+  `curso` TEXT default NULL PRIMARY KEY,
   `concorrencia` TEXT default NULL,
   `portugues6` mediumint default NULL,
   `portugues7` mediumint default NULL,
