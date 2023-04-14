@@ -12,7 +12,7 @@ CREATE TABLE aluno (
   `data_nasc` varchar(255),
   `deficiencia` TEXT default NULL,
   `genero` TEXT default NULL,
-  `curso` TEXT default NULL PRIMARY KEY,
+  `curso` TEXT default NULL,
   `concorrencia` TEXT default NULL,
   `portugues6` mediumint default NULL,
   `portugues7` mediumint default NULL,
@@ -47,5 +47,4 @@ CREATE TABLE aluno (
   `edfisica8` mediumint default NULL,
   `edfisica9` mediumint default NULL,
   PRIMARY KEY (`id`)
-) AUTO_INCREMENT=1;
-
+)
