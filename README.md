@@ -36,13 +36,13 @@ Para suporte, mande um email para   ou entre em contato com o nucleo gestor da e
 Clone o projeto
 
 ```bash
-  git clone https://link-para-o-projeto
+  git clone https://github.com/Ksanim0/Lab-Web_Edital
 ```
 
 Entre no diretório do projeto
 
 ```bash
-  cd my-project
+  cd Lab-Web_Edital
 ```
 
 Instale as dependências
