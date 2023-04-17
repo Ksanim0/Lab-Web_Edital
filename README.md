@@ -62,6 +62,18 @@ Inicie o servidor
   .
  
  
+
+## Aprendizados
+
+O que aprendemos com esse projeto? Quais desafios enfrentamos e como os superamos?
+
+<h4>Gerar tabela dos dados inseridos de HTML para PDF</h4>
+
+
+## Melhorias
+
+Que melhorias você fez no seu código? Ex: refatorações, melhorias de performance, acessibilidade, etc
+
  
  
  
