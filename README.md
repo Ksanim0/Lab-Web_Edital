@@ -24,7 +24,7 @@
 
 ## Suporte
 
-Para suporte, mande um email para   ou entre em contato com o nucleo gestor da escola.
+Para suporte, mande um email para lucasarimateia11@gmail.com ou entre em contato com o nucleo gestor da escola.
 
 
  
