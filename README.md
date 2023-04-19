@@ -77,6 +77,8 @@ Que melhorias você fez no seu código? Ex: refatorações, melhorias de perform
  
 ## Complicações durante o projeto
 
+Quais complicações você teve no seu código durante a criação?
+  
 Na implementação do bootstrap <br>
 A criação da tabela de classificados no HTML e CSS
  
