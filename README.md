@@ -75,7 +75,10 @@ O que aprendemos com esse projeto? Quais desafios enfrentamos e como os superamo
 Que melhorias você fez no seu código? Ex: refatorações, melhorias de performance, acessibilidade, etc
 
  
- 
+## Complicações durante o projeto
+
+Na implementação do bootstrap <br>
+A criação da tabela de classificados no HTML e CSS
  
  
  
