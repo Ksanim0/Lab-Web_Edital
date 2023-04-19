@@ -68,6 +68,21 @@ Inicie o servidor
 O que aprendemos com esse projeto? Quais desafios enfrentamos e como os superamos?
 
 <h4>Gerar tabela dos dados inseridos de HTML para PDF</h4>
+  
+  - [Video usado como base](
+https://youtu.be/oYjseP_Qhv4?t=4242)
+ - [Link da API](https://github.com/eKoopmans/html2pdf.js)
+  
+
+<h4>Problematica das inserçoes e atualizaçao da tabela </h4>
+  
+
+SQL triggers;
+
+O Trigger no MySQL é um objeto de banco de dados associado a uma tabela. Será ativado quando uma ação definida for executada para a tabela.
+ O trigger pode ser executado quando você executa uma das seguintes instruções do MySQL na tabela: INSERT ,
+ UPDATE e DELETE e pode ser chamada antes ou depois do evento.
+
 
 
 ## Melhorias
