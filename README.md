@@ -45,6 +45,14 @@ Entre no diretório do projeto
   cd Lab-Web_Edital
 ```
 
+Entre no seu editor de códigos 
+
+```bash
+  code.
+```
+
+
+
 Instale as dependências
 
 ```bash
