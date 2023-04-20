@@ -3,9 +3,9 @@
 
 <img src="https://raw.githubusercontent.com/iuricode/iuricode/6944132fcd081de8097a0fa9c97a3110325dfc3e/logo.svg" width="300px" min-width="300px" max-width="300px" align="right" alt="Img">
 
-<h2>Formulario de inscrição EEEP Manoel Mano</h2>
+<h2>Formulário de inscrição EEEP Manoel Mano</h2>
 
-<p>Criação de um site com um formulario para a inscrição de novos dicentes na Escola de ensino profisionalizante Manoel Mano.</p>
+<p>Criação de um site com um formulário para a inscrição de novos dicentes na Escola de ensino profissionalizante Manoel Mano.</p>
 
 </br>
 
@@ -92,12 +92,12 @@ O que aprendemos com esse projeto? Quais desafios enfrentamos e como os superamo
 
 <h4>Gerar tabela dos dados inseridos de HTML para PDF</h4>
   
-  - [Video usado como base](
+  - [Video utilizado como base](
 https://youtu.be/oYjseP_Qhv4?t=4242)
- - [Link da API](https://github.com/eKoopmans/html2pdf.js)
+  - [Link da API](https://github.com/eKoopmans/html2pdf.js)
   
 
-<h4>Problematica das inserçoes e atualizaçao da tabela </h4>
+<h4>Problemática das inserções e atualização da tabela </h4>
   
 
 <p> Durante o processo do projeto nos encontramos em um pequeno óbice, atualizar a tabela <bold> aluno </bold> em conjunto com a tabela<bold> nome_tabela </bold> </p>
