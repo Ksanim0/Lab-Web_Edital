@@ -142,7 +142,7 @@ Quais complicações você teve no seu código durante a criação?
 Na implementação do bootstrap <br>
 A criação da tabela de classificados no HTML e CSS
  
-## Linguagens usadas 
+## Linguagens e ferramentas utilizadas 
 
 <div class="codes" align="float">
   <a href="https://www.instagram.com/eeepmanoelmano/" alt="Instagram">
@@ -156,6 +156,29 @@ A criação da tabela de classificados no HTML e CSS
     <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
   </a>
 </div>
+
+<div class="codes" align="float">
+  <a href="https://www.instagram.com/eeepmanoelmano/" alt="Instagram">
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  </a>
+</div>
+
+<div class="codes" align="float">
+  <a href="https://www.instagram.com/eeepmanoelmano/" alt="Instagram">
+    <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
+  </a>
+</div>
+
+<div class="codes" align="float">
+  <a href="https://www.instagram.com/eeepmanoelmano/" alt="Instagram">
+    <img src="https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white"/>
+  </a>
+</div>
+
+
+
+
+
 
 
 
