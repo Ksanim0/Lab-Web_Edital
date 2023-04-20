@@ -83,6 +83,16 @@ O Trigger no MySQL é um objeto de banco de dados associado a uma tabela. Será 
  O trigger pode ser executado quando você executa uma das seguintes instruções do MySQL na tabela: INSERT ,
  UPDATE e DELETE e pode ser chamada antes ou depois do evento.
 
+ Syntax do comando 
+
+```bash
+CREATE TRIGGER [NOME DO TRIGGER]
+ON [NOME DA TABELA]
+[FOR/AFTER/INSTEAD OF] [INSERT/UPDATE/DELETE]
+AS
+    --CORPO DO TRIGGER
+```
+
 
 
 ## Melhorias
