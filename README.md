@@ -132,7 +132,7 @@ INSERT/UPDATE/DELETE: uma ou várias dessas opções (separadas por vírgula) de
 
 ## Melhorias
 
-Que melhorias você fez no seu código? Ex: refatorações, melhorias de performance, acessibilidade, etc
+Que melhorias você fez no seu código? Ex: refatorações, melhorias de performance, acessibilidade, etc.
 
  
 ## Complicações durante o projeto
