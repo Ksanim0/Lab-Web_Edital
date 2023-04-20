@@ -11,17 +11,26 @@
 
 ## Redes sociais da escola:
 
-<div align="left">
+<div class= "social" align="float">
   <a href="https://www.instagram.com/eeepmanoelmano/" alt="Instagram">
     <img src="https://img.shields.io/badge/-Instagram-ff3a5e?style=for-the-badge&logo=Instagram&logoColor=FFF"/>
   </a>
 </div>
 
-<div align="">
+<div class="social" align="float">
   <a href="https://www.instagram.com/eeepmanoelmano/" alt="Instagram">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
   </a>
 </div>
+
+<div class="social" align="float">
+  <a href="https://www.instagram.com/eeepmanoelmano/" alt="Instagram">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
+  </a>
+</div>
+
+
+
 
  
  ## Referência
