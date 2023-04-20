@@ -142,7 +142,9 @@ Quais complicações você teve no seu código durante a criação?
 Na implementação do bootstrap <br>
 A criação da tabela de classificados no HTML e CSS
  
- 
+## Linguagens usadas 
+
+
  
 ## ✨ Contribuidores 
 
