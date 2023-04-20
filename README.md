@@ -75,13 +75,15 @@ https://youtu.be/oYjseP_Qhv4?t=4242)
 <h4>Problematica das inserçoes e atualizaçao da tabela </h4>
   
 
-<h5> Durante o processo do projeto nos encontramos em um pequeno óbice, atualizar a tabela <bold> aluno </bold> em conjunto com a tabela<bold> nome_tabela </bold> </h5>
+<p> Durante o processo do projeto nos encontramos em um pequeno óbice, atualizar a tabela <bold> aluno </bold> em conjunto com a tabela<bold> nome_tabela </bold> </p>
 
-SQL triggers;
 
-O Trigger no MySQL é um objeto de banco de dados associado a uma tabela. Será ativado quando uma ação definida for executada para a tabela.
- O trigger pode ser executado quando você executa uma das seguintes instruções do MySQL na tabela: INSERT ,
- UPDATE e DELETE e pode ser chamada antes ou depois do evento.
+
+> SQL triggers:
+
+<p> O Trigger no MySQL é um objeto de banco de dados associado a uma tabela. Será ativado quando uma ação definida for executada para a tabela.
+O trigger pode ser executado quando você executa uma das seguintes instruções do MySQL na tabela: INSERT ,
+ UPDATE e DELETE e pode ser chamada antes ou depois do evento. </p>
 
  Syntax do comando 
 
@@ -93,7 +95,7 @@ AS
     --CORPO DO TRIGGER
 ```
 
-Os parâmetros são:
+> Parâmetros:
 
 NOME DO TRIGGER: nome que identificará o gatilho como objeto do banco de dados. Deve seguir as regras básicas de nomenclatura de objetos.
 
