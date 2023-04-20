@@ -58,9 +58,7 @@ Inicie o servidor
 ```
 
 
- ..
-  .
- 
+
  
 
 ## Aprendizados
@@ -76,6 +74,8 @@ https://youtu.be/oYjseP_Qhv4?t=4242)
 
 <h4>Problematica das inserçoes e atualizaçao da tabela </h4>
   
+
+<h5> Durante o processo do projeto nos encontramos em um pequeno óbice, atualizar a tabela <bold> aluno </bold> em conjunto com a tabela<bold> nome_tabela </bold> </h5>
 
 SQL triggers;
 
