@@ -120,6 +120,7 @@ AS
     --CORPO DO TRIGGER
 ```
 
+
 > Parâmetros:
 
 NOME DO TRIGGER: nome que identificará o gatilho como objeto do banco de dados. Deve seguir as regras básicas de nomenclatura de objetos.
@@ -129,6 +130,9 @@ NOME DA TABELA: tabela à qual o gatilho estará ligado, para ser disparado medi
 FOR/AFTER/INSTEAD OF: uma dessas opções deve ser escolhida para definir o momento em que o trigger será disparado. FOR é o valor padrão e faz com o que o gatilho seja disparado junto da ação. AFTER faz com que o disparo se dê somente após a ação que o gerou ser concluída. INSTEAD OF faz com que o trigger seja executado no lugar da ação que o gerou.
 
 INSERT/UPDATE/DELETE: uma ou várias dessas opções (separadas por vírgula) devem ser indicadas para informar ao banco qual é a ação que disparará o gatilho. Por exemplo, se o trigger deve ser disparado após toda inserção, deve-se utilizar AFTER INSERT.
+
+
+<h4>Admitir virgula e ponto no input de notas</h4>
 
 ## Melhorias
 
