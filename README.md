@@ -43,7 +43,7 @@
 
 Para suporte, mande um email para lucasarimateia11@gmail.com ou entre em contato com o nucleo gestor da escola.
 
-
+![](https://github.com/Your_Repository_Name/Your_GIF_Name.gif)
  
  
  
