@@ -1,7 +1,5 @@
 <?Php
 
-
-
 // Definir a fonte da fpdf
 define('FPDF_FONTPATH','font/');
 require './fpdf/fpdf.php';
@@ -20,13 +18,17 @@ $nsql = ("SELECT nome_completo,media FROM aluno where curso = 'enfermagem' and c
 $query = ("SELECT nome_completo,media from aluno where curso = 'enfermagem' and deficiencia <> 'nenhuma'  and bairro <> 'Venânciosi' order by media desc limit 2");
 $nquery = ("SELECT nome_completo,media from aluno where curso = 'enfermagem' and deficiencia <> 'nenhuma'  and bairro <> 'Venânciosi' order by media desc limit 5 offset 2");
 
-//Classificados por cota
-$mysqll = ("SELECT nome_completo,media from aluno where curso = 'enfermagem' and deficiencia = 'nenhuma' and bairro = 'Venânciosi' order by media desc limit 10");
-$nmysqll = ("SELECT nome_completo,media from aluno where curso = 'enfermagem' and deficiencia = 'nenhuma' and bairro = 'Venânciosi' order by media desc limit 5 offset 2");
+//Classificados por cota (pública)
+$mysqll = ("SELECT nome_completo,media from aluno where curso = 'enfermagem' and deficiencia = 'nenhuma' and bairro = 'Venânciosi' and concorrencia ='[publica]' order by media desc limit 10");
+$nmysqll = ("SELECT nome_completo,media from aluno where curso = 'enfermagem' and deficiencia = 'nenhuma' and bairro = 'Venânciosi' and concorrencia ='[publica]' order by media desc limit 5 offset 2");
 
 //Classificados ampla concorrência (Privada)
 $my = ("SELECT nome_completo,media from aluno where curso = 'enfermagem' and concorrencia = '[privada]'  order by media desc limit 10");
 $nmy = ("SELECT nome_completo,media from aluno where curso = 'enfermagem' and concorrencia = '[privada]'  order by media desc limit 5 offset 10");
+
+//Classificados por cota (privada)
+$busquer = ("SELECT nome_completo,media from aluno where curso = 'enfermagem' and deficiencia = 'nenhuma' and bairro = 'Venânciosi' and concorrencia ='[privada]' order by media desc limit 10");
+$nbusquer = ("SELECT nome_completo,media from aluno where curso = 'enfermagem' and deficiencia = 'nenhuma' and bairro = 'Venânciosi' and concorrencia ='[privada]' order by media desc limit 5 offset 2");
 
 
 $busca = mysqli_query($conn,$sql);
@@ -37,7 +39,8 @@ $procurar =  mysqli_query($conn,$mysqll);
 $nprocurar =  mysqli_query($conn,$nmysqll);
 $ir =  mysqli_query($conn,$my);
 $nir =  mysqli_query($conn,$nmy);
-
+$busque =  mysqli_query($conn,$busquer);
+$busquen =  mysqli_query($conn,$nbusquer);
 
 $pdf = new TextNormalizerFPDF(); 
 $pdf->AddPage();
@@ -133,6 +136,24 @@ while ($resultado=mysqli_fetch_array($ir)) {
 $pdf->Cell(170,7,'Não Classificados Privada',1,0,'C','F');
 $pdf->ln();
 while ($resultado=mysqli_fetch_array($nir)) {
+    // dimensões das células do pdf   
+    $pdf->Cell(120,7,$resultado['nome_completo'],1,0); 
+    $pdf->Cell(50,7,$resultado['media'],1,1);   
+}
+$pdf->ln(10); 
+$pdf->Cell(170,7,'Classificados Cota Privada',1,0,'C','F');
+$pdf->ln();
+$pdf->Cell(120,7,'Nome',1,0,'C'); 
+$pdf->Cell(50,7,'Média Geral',1,0,'C'); 
+$pdf->ln(); 
+while ($resultado=mysqli_fetch_array($busque)) {
+    // dimensões das células do pdf   
+    $pdf->Cell(120,7,$resultado['nome_completo'],1,0); 
+    $pdf->Cell(50,7,$resultado['media'],1,1);   
+}
+$pdf->Cell(170,7,'Não Classificados Cota Privada',1,0,'C','F');
+$pdf->ln();
+while ($resultado=mysqli_fetch_array($busquen)) {
     // dimensões das células do pdf   
     $pdf->Cell(120,7,$resultado['nome_completo'],1,0); 
     $pdf->Cell(50,7,$resultado['media'],1,1);   
