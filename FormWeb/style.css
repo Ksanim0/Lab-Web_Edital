@@ -221,7 +221,8 @@ table{
     display: relative;
     width: 50%;
     margin: 15% auto;
-    margin-top: 200px;
+    padding-top: 130px;
+    margin-top: 300px;
     border-collapse: collapse;
     font-family: Arial,Helvetica,sans-serif; 
     font-size: 14px;
@@ -277,7 +278,7 @@ input[type=number] {
     border-radius: 4px;
     margin-bottom: 0px;
     top: auto;
-    margin-left: 340px;
+    margin-left: 640px;
     bottom: 150px;
   
 
@@ -326,8 +327,39 @@ button.enviar{
 
 
 }
-@media (max-width: 1266px) and (min-width: 951px)  {}
+@media (max-width: 1427px) and (min-width: 951px) {
 
+    .enviar{
+        
+        margin-left: 350px;
+     }
+
+}
+
+
+@media (min-width: 1199px) {
+
+    .formulario{
+        margin-bottom: 100px;
+        margin-left:185px ;
+        flex-direction:row ;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: space-around;
+        align-items: normal;
+        
+       
+     
+     }
+
+     .table{
+       display: flex;
+       margin-left:550px;
+        
+     }
+
+    
+}
 
 @media (max-width: 950px) and (min-width: 900px)  {
 
@@ -363,4 +395,3 @@ button.enviar{
 
 
 }
-
