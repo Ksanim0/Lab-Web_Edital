@@ -123,7 +123,6 @@ margin-right: 100px;
 }
 
 .formulario { 
-
     height: 400px;
     width: 500px;
     padding: 35px;
@@ -218,11 +217,11 @@ margin-right: 100px;
 /* Tabela de notas*/
 
 table{
-    display: relative;
+    display: absolute;
     width: 50%;
     margin: 15% auto;
     padding-top: 130px;
-    margin-top: 300px;
+    margin-top: 200px;
     border-collapse: collapse;
     font-family: Arial,Helvetica,sans-serif; 
     font-size: 14px;
@@ -296,10 +295,7 @@ button.enviar{
 
 @media (max-width: 1900px) and (min-width: 1266px)  {
 
-    .enviar{
-        
-     }
-
+   
      
      .formulario{
         margin-bottom: 100px;
@@ -361,11 +357,125 @@ button.enviar{
     
 }
 
+
+@media (min-width: 1148px) {
+
+    .formulario{
+        margin-bottom: 100px;
+        margin-left:185px ;
+        flex-direction:row ;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: space-around;
+        align-items: normal;
+        
+       
+     
+     }
+
+     .table{
+       display: flex;
+       margin-left:550px;
+        
+     }
+
+     .bottom{
+
+        margin-right: 0px;
+     }
+
+    
+}
+
+
+@media (max-width: 1064px) {
+
+    .formulario{
+        margin-bottom: 100px;
+        margin-left:100px ;
+        flex-direction:row ;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: space-around;
+        align-items: normal;
+        
+       
+     
+     }
+
+     .table{
+       display: flex;
+       margin-left:550px;
+        
+     }
+
+     .enviar{
+
+        left: 200px;
+
+       
+     }
+
+    
+}
+
+
+
+
+
+@media (max-width: 1038px) and (min-width: 949px) {
+       .enviar{
+
+        margin-left: 150px;
+        margin-top: 20px;
+    
+          }
+
+          .formulario{
+            margin-bottom:50px;
+            margin-left:100px ;
+            flex-direction:row ;
+            flex-wrap: wrap;
+            align-content: space-around;
+            justify-content: space-around;
+            align-items: normal;
+          }    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 950px) and (min-width: 900px)  {
 
     .enviar{
         margin-top: 200px;
-        margin-left: 50px;
+        
      }
 
      
@@ -395,3 +505,5 @@ button.enviar{
 
 
 }
+
+

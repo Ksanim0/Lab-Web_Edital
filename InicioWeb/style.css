@@ -105,3 +105,15 @@ background-color:rgba(0, 168, 74, 1);
 .btn:hover{
     background-color:rgb(5, 143, 65);
 }
+
+
+
+/* 
+
+@media (max-width:1900px ;
+) {
+    .btn{
+        width: 195px;
+    }
+}
+ */
