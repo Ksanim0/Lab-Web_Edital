@@ -293,7 +293,7 @@ button.enviar{
 
 
 
-@media (max-width: 1900px) and (min-width: 1266px)  {
+@media (max-width: 1900px) and (min-width: 1423px)  {
 
    
      
@@ -323,7 +323,9 @@ button.enviar{
 
 
 }
-@media (max-width: 1427px) and (min-width: 951px) {
+
+
+@media (max-width: 1427px)  {
 
     .enviar{
         
@@ -333,7 +335,11 @@ button.enviar{
 }
 
 
-@media (min-width: 1199px) {
+ 
+
+
+
+@media (max-width: 1156px) /* and (min-width:;) */ {
 
     .formulario{
         margin-bottom: 100px;
@@ -352,6 +358,10 @@ button.enviar{
        display: flex;
        margin-left:550px;
         
+     }
+
+     .bottom{
+        margin-left: 200px;
      }
 
     
@@ -388,7 +398,7 @@ button.enviar{
 }
 
 
-@media (max-width: 1064px) {
+@media (max-width: 1077px) {
 
     .formulario{
         margin-bottom: 100px;
@@ -406,12 +416,13 @@ button.enviar{
      .table{
        display: flex;
        margin-left:550px;
+       margin-bottom:100px ;
         
      }
 
      .enviar{
 
-        left: 200px;
+        margin-left: 20px;
 
        
      }
@@ -471,10 +482,12 @@ button.enviar{
 
 
 
-@media (max-width: 950px) and (min-width: 900px)  {
+@media (max-width: 962px) and (min-width: 900px)  {
 
     .enviar{
         margin-top: 200px;
+        margin-left: -20px;
+        
         
      }
 
