@@ -520,3 +520,50 @@ button.enviar{
 }
 
 
+
+
+@media (max-width: 890px) and (min-width: 703px){
+
+    .formulario{
+        margin-bottom: 100px;
+        margin-left:-10px ;
+        flex-direction:row ;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: space-around;
+        align-items: normal;
+        /* padding-right: 90px; */
+        
+       
+     
+     }
+
+     
+.formulario { 
+    height: 400px;
+    width: 400px;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    padding-top: 20rem
+
+}
+
+     .table{
+       display: flex;
+       margin-left:550px;
+       margin-bottom:100px ;
+        
+     }
+
+     botton.enviar{
+
+        margin-right: 200px;
+        margin-top: 90px;
+        left: 600px
+
+       
+     }
+
+    
+}
