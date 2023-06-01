@@ -325,11 +325,11 @@ button.enviar{
 }
 
 
-@media (max-width: 1427px)  {
+@media (max-width: 1427px) and (min-width:100px) {
 
     .enviar{
         
-        margin-left: 350px;
+        margin-left: 45px;
      }
 
 }
@@ -567,3 +567,20 @@ button.enviar{
 
     
 }
+
+
+
+@media (max-width: 871px) {
+
+    .enviar{
+        
+        margin-left: 5px;
+     }
+
+        
+      
+      
+
+
+    }
+     
