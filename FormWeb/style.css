@@ -117,8 +117,10 @@ margin-right: 10px;
     
     align-items: center;
     justify-content: center;
-    margin-left: 5%;
+    margin-left: 1%;
+    margin-right: 2%;
     display: grid;
+    margin-top: 4%;
 }
 
 .mb-3{
@@ -128,6 +130,25 @@ margin-right: 10px;
     display: inline;
     width: 90vh;
 }
+
+.container-1{
+    margin-top: -6%;
+}
+
+#rua, #localidade, #cpf{
+    width: 43vh;
+}
+
+#bairro, #uf, #cep{
+    width: 42vh;
+}
+
+.DataNasc input {
+    width: 264px;}
+
+    #Cur{
+        width: 20vh;
+    }
 
 
 .formulario input {
@@ -151,6 +172,11 @@ margin-right: 10px;
 .formulario input:focus-visible{
     outline: 1px solid #6c63ff;
 }
+
+.DataNasc input{
+    width: 305px ;
+    position: relative;
+  }
 
 
 /* CURSO CHOICE */
@@ -305,10 +331,10 @@ input[type=number] {
     @media screen and (max-width:703px) {
         .row-1{
             display: flex;
-        position: relative;
-        align-items: baseline;
-        flex-direction: row;
-        justify-content: space-around
+            position: relative;
+            align-items: baseline;
+            flex-direction: row;
+            justify-content: space-around
         }
         .col-0 img {
             width: 160px;
@@ -325,4 +351,136 @@ input[type=number] {
 
        
     }
+
+    @media screen and (max-width:658px) {
+       
+      .col-01{
+        width: 80vh;
+        }
+       
+        .DataNasc input{
+
+            width: 185px;
+
+        }
+        
+        .col{
+            margin-right: 3vh;
+            width: 39vh;
+        }
+        
+        .col-gen{
+            padding-inline: 5vh;
+        }
+
+        #rua, #localidade, #cpf{
+            width: 39vh;
+        }
+
+        #bairro, #uf, #cep{
+            width: 38vh;
+        }
+
+
+
+
+       
+        
+      
+    }
+
+
+
     
+    @media screen and (max-width:600px) {
+
+        .col-0 h3{
+            width: 40vh;
+            font-size: 40px;
+        }
+        .links-btn{
+            display: block;
+        }
+
+        
+
+    }
+
+    
+    @media screen and (max-width:592px) {
+
+        .formulario{
+           margin-left: 2%;
+        }
+        .col{
+            margin-right: 1vh;
+            width: 39px;
+            width: 40vh;
+        }
+        #Def{
+            margin-left: 1vh;
+        }
+    }
+
+        
+    
+    @media screen and (max-width:569px) {
+
+     .col-01{
+        width: 70vh;
+     }
+
+     .mb-3{
+        margin-left: 5vh;
+     }
+
+     #rua, #localidade, #cpf{
+        margin-left: 5vh;
+        width: 35vh;
+    }
+
+    #bairro, #uf, #cep{
+        width: 34vh;
+    }
+
+    #Cur{
+        margin-right: 3vh;
+    }
+
+   
+    .DataNasc input {
+    width: 188px;
+    margin-left: 5vh;
+    }
+    #Def {
+        margin-left: 5vh;
+    }
+
+    .col-0-vdc{
+        margin-left: 4vh;
+    }
+
+    .col-0{
+        width: 90vh;
+
+    
+    }
+
+    .container-main-menu{
+        height: 125px;
+    }
+
+    .col-0 img{
+        width: 124px;
+    }
+    .col-0 h3{
+        width: 45vh;
+        font-size:45px;
+    }
+
+
+
+
+        
+
+    }
