@@ -113,7 +113,21 @@ margin-right: 10px;
 /* FORM-PART */
 
 
+.formulario{
+    
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    display: grid;
+}
 
+.mb-3{
+    width: 300px;
+}
+.col-01{
+    display: inline;
+    width: 90vh;
+}
 
 
 .formulario input {
@@ -267,30 +281,17 @@ input[type=number] {
 
 
 
-@media (max-width: 1468px) {
+@media screen and (max-width: 850px) {
 
  
+.col-01{
+    width: -70vh;
+}
+.formulario{
+    background-color: rgb(0, 56, 225);
+}
 
-     
-
-/* INPUTS FORM */
-.mb-3 input{
-    width: 820px;
    
-  }
-  .row input{
-    width: 650px;
-    
-    
-  }
-
-  .row{
-    display: flex;
-  }
-  .mb-3 input{
-    width: 200px;
-  }
-  
 
      
 
@@ -301,12 +302,27 @@ input[type=number] {
 
     }
 
+    @media screen and (max-width:703px) {
+        .row-1{
+            display: flex;
+        position: relative;
+        align-items: baseline;
+        flex-direction: row;
+        justify-content: space-around
+        }
+        .col-0 img {
+            width: 160px;
+        }
+
+       
+    }
+
+    @media screen and (max-width:663px) {
+       
+        .col-0 img {
+            width: 130px;
+        }
+
+       
+    }
     
-
-    @media (max-width: 768px) {
-      /*   .btn-container {
-          text-align: center;
-        } */
-      }
-
-
