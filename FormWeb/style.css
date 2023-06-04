@@ -22,7 +22,6 @@
     display: flex;
     position: relative;
     align-items: center;
-    flex-direction: row;
     justify-content: space-around;
     
 }
@@ -307,24 +306,15 @@ input[type=number] {
 
 
 
-@media screen and (max-width: 850px) {
+    @media screen and (max-width: 850px) {
 
  
-.col-01{
+    .col-01{
     width: -70vh;
-}
-.formulario{
+    }
+    .formulario{
     background-color: rgb(0, 56, 225);
-}
-
-   
-
-     
-
-        
-      
-      
-
+    }
 
     }
 
@@ -360,25 +350,25 @@ input[type=number] {
        
         .DataNasc input{
 
-            width: 185px;
+        width: 185px;
 
         }
         
         .col{
-            margin-right: 3vh;
-            width: 39vh;
+        margin-right: 3vh;
+        width: 39vh;
         }
         
         .col-gen{
-            padding-inline: 5vh;
+        padding-inline: 5vh;
         }
 
         #rua, #localidade, #cpf{
-            width: 39vh;
+        width: 39vh;
         }
 
-        #bairro, #uf, #cep{
-            width: 38vh;
+        #bairro, #uf, #cep{  
+         width: 38vh;
         }
 
 
@@ -395,11 +385,11 @@ input[type=number] {
     @media screen and (max-width:600px) {
 
         .col-0 h3{
-            width: 40vh;
-            font-size: 40px;
+        width: 40vh;
+        font-size: 40px;
         }
         .links-btn{
-            display: block;
+        display: block;
         }
 
         
@@ -409,16 +399,16 @@ input[type=number] {
     
     @media screen and (max-width:592px) {
 
-        .formulario{
-           margin-left: 2%;
+        .formulario{     
+         margin-left: 2%;
         }
         .col{
-            margin-right: 1vh;
-            width: 39px;
-            width: 40vh;
+        margin-right: 1vh;
+        width: 39px;
+        width: 40vh;
         }
         #Def{
-            margin-left: 1vh;
+        margin-left: 1vh;
         }
     }
 
@@ -449,8 +439,8 @@ input[type=number] {
 
    
     .DataNasc input {
-    width: 188px;
-    margin-left: 5vh;
+        width: 188px;
+        margin-left: 5vh;
     }
     #Def {
         margin-left: 5vh;
@@ -477,10 +467,22 @@ input[type=number] {
         width: 45vh;
         font-size:45px;
     }
+        
+    }
 
+     
+    @media screen and (max-width:568px) {
 
-
+        .col-0 h3 {
+            width: 45vh;
+            font-size: 45p;
+        }
 
         
+        .header{
+        
+        background: linear-gradient(90deg, #204D37 0%, #00853B 40%);
 
+        }
+        
     }
