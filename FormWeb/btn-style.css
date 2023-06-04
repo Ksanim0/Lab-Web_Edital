@@ -26,7 +26,7 @@
     text-decoration: none;
     color: rgb(0, 128, 0);
     display: inline;
-    padding: 6px;
+    padding: 10px;
  
 }
 
@@ -38,15 +38,20 @@
 
 
 /* INPUTS FORM */
+
 .mb-3 input{
   width: 720px;
+  position: relative;
  
-}
+} 
+
+
 .row input{
   width: 350px;
+  position: relative;
   
   
-}
+} 
 
 
 
@@ -59,4 +64,24 @@
 color: #FFBD00;
 
 }
+
+
+
+.container-0{
+  background-color: red;
+}
+.container-1{
+  background-color: rebeccapurple;
+}
+
+.area-formulario{
+  background-color: blue;
+}
+.formulario{
+  background-color: blueviolet;
+}
+.btn-container{
+  background-color: yellow;
+}
+
 
