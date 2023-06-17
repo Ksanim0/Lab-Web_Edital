@@ -1,0 +1,86 @@
+.fcc-btn {
+    background-color: c9;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+.fcc-btn {
+  
+  color: rgb(0, 133, 59);
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+
+ .fcc-btn{
+  box-sizing: border-box;
+  color: rgb(0, 128, 0);
+  text-decoration: none;
+  text-decoration-style: solid;
+  padding: 20%;
+ }
+.links-btn{
+position:none;
+}
+
+.fcc-btn{
+    text-decoration: none;
+    color: rgb(0, 128, 0);
+    display: inline;
+    padding: 9px;
+    align-items: center;
+}
+
+.links-btn{
+    margin-top: -50px;
+    margin-bottom: -250px;
+    margin-left: 750px;
+}
+ 
+.fcc-btn {
+
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.fcc-btn {
+
+color: rgb(0, 133, 59);
+padding: 15px 25px;
+text-decoration: none;
+}
+
+
+.fcc-btn{
+box-sizing: border-box;
+color: rgb(0, 128, 0);
+text-decoration: none;
+text-decoration-style: solid;
+padding: 20%;
+}
+
+
+.fcc-btn{
+  text-decoration: none;
+  color: rgb(0, 128, 0);
+  display: inline;
+  padding: 10px;
+
+}
+
+.links-btn{
+  margin-top: -50px;
+  margin-bottom: -150px;
+}
+
+.mb-3 input{
+width: 420px;
+}
+
+.fcc-btn:hover{
+
+color: #FFBD00;
+
+}

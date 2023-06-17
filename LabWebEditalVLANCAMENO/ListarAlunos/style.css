@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-main-menu {
+    border-bottom: 5px solid #00bd19;
+    box-shadow: 0px 5px 25px 0px rgb( 0 0 0 / 50%);
+    overflow: visible !important;
+    background: url(./base-ondas.svg) no-repeat -50px bottom !important;
+    height: 100px;
+    background-size: 700px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.col-0 h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00A84A;
+    margin-left: 650px;
+    margin-top: -50px;
+    margin-bottom: 60px;
+    margin-right: 10px;
+}
+
+.col-0 img {
+    width: 180px;
+    height: 75px;
+}
+
+.area-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    width: 350px;
+    height: 400px;
+    /* padding: 30px; */
+    display: flex;
+    align-items: center;
+    padding-top: 20rem;
+    
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formulario input {
+    margin-top: 10px;
+    height: 45px;
+    outline: none;
+    border-radius: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-left: 4px;
+}
+
+input::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(42, 42, 42, 0.5);
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+form [type="submit"] {
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    width: 50%;
+    height: 40px;
+    font-size: 15px;
+    margin-left: 50px;
+    background-image: linear-gradient(#204D37, #00853B);
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+    padding-top: 10px;
+}
+
+.submit {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+footer img{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    overflow: visible !important;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+            

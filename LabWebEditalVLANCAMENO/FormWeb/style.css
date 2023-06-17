@@ -1,0 +1,366 @@
+* {
+    padding: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+    
+
+.container-main-menu {
+    border-bottom: 5px solid #00bd19;
+    box-shadow: 0px 5px 25px 0px rgb( 0 0 0 / 50%);
+    overflow: visible !important;
+    background: url(./base-ondas.svg) no-repeat -50px bottom !important;
+    height: 100px;
+    background-size: 700px;
+}
+
+.row-1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.col-0 h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 20px;  
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+
+
+
+
+    color: #00A84A;
+    display: flex;
+}
+
+.col-0-vdc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 20px;  
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00A84A;
+    display: flex;
+}
+
+
+.col-0 img {
+    width: 180px;
+    height: 75px;
+}
+
+input::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(42, 42, 42, 0.5);
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+    padding-top: 10px;
+}
+
+
+
+.submit {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+footer img{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    overflow: visible !important;
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10%; /* Descer footer */
+}
+
+.row{
+display: flex;
+margin-right: 100px;
+
+}
+
+/* FORM-PART */
+
+
+.area-formulario {
+    display: flex;
+    margin-left: 30%;
+  
+}
+
+.formulario { 
+
+    height: 400px;
+    width: 500px;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    padding-top: 20rem
+
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+
+.formulario input {
+    margin: 0.6rem 0.3rem;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 9px #0000001c;
+    font-size: 0.8rem;
+
+    
+   
+}
+
+.formulario input:hover{
+    background-color: #eeeeee75;
+}
+
+
+.formulario input:focus-visible{
+    outline: 1px solid #6c63ff;
+}
+
+
+/* CURSO CHOICE */
+
+.curso-title  {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000c0;
+    margin-top: 0.7rem;
+}
+
+.input-box input::placeholder {
+    color: #000000be;
+}
+
+.curso-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 .5rem;
+}
+
+.curso-input {
+    display: flex;
+    align-items: center;
+}
+
+.curso-input input {
+    margin-right: 0.35rem;
+}
+
+.curso-input label {
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+.row select {
+        margin: 0.6rem 0;
+        padding: 0.8rem 1.2rem;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 1px 1px 9px #0000001c;
+        font-size: 0.8rem;
+        margin-right: 10px;
+        
+        }
+.row select:hover{
+    background-color: #eeeeee75;
+}
+
+.row select:focus-visible{
+    outline: 1px solid #6c63ff;
+}
+
+/* Tabela de notas*/
+
+table{
+    display: relative;
+    width: 50%;
+    margin: 15% auto;
+    margin-top: 200px;
+    border-collapse: collapse;
+    font-family: Arial,Helvetica,sans-serif; 
+    font-size: 14px;
+    text-align: left;
+
+}
+table th{
+    background: #f2f2f2;
+    padding: 3px;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+    text-align: center;
+}
+
+table td{
+    padding: 6px;
+    border-bottom: 1px solid #ddd ;
+    text-align: center;
+}
+table tr:hover{
+    background-color: #f5f5f5;
+}
+table input{
+    height: 30px;
+    width: 80px;
+}
+
+table input:focus-visible{
+    outline: 1px solid #6c63ff;
+}
+
+/* tirar setas input number */
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+/* butauuuun */
+
+.enviar{
+    height:42px ;
+    width: 99px;
+    position: relative;
+    background-color: #178f12;
+    color: #ffffffff;
+    border-style:hidden ;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 0px;
+    top: auto;
+    margin-left: 340px;
+    bottom: 150px;
+  
+
+}
+
+button.enviar{
+    left: 700px;
+}
+
+
+
+
+
+
+
+@media (max-width: 1900px) and (min-width: 1266px)  {
+
+    .enviar{
+        
+     }
+
+     
+     .formulario{
+        margin-bottom: 100px;
+        margin-left:185px ;
+        flex-direction:row ;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: space-around;
+        align-items: normal;
+        
+       
+     
+     }
+
+     .area-formulario{
+        margin-right: 50rem;
+     }
+
+     .table{
+        display: flex;
+        align-items: center;
+        
+     }
+
+
+
+}
+@media (max-width: 1266px) and (min-width: 951px)  {}
+
+
+@media (max-width: 950px) and (min-width: 900px)  {
+
+    .enviar{
+        margin-top: 200px;
+        margin-left: 50px;
+     }
+
+     
+     .formulario{
+        margin-bottom: 100px;
+        margin-left:7px ;
+        flex-direction:row ;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: space-around;
+        align-items: normal;
+        
+       
+     
+     }
+
+     .area-formulario{
+        margin-right: 50rem;
+     }
+
+     .table{
+        display: flex;
+        align-items: center;
+        
+     }
+
+
+
+}
+
