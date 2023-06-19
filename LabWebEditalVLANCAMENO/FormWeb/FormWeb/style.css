@@ -1,0 +1,488 @@
+* {
+    padding: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+    
+
+.container-main-menu {
+    border-bottom: 5px solid #00bd19;
+    box-shadow: 0px 5px 25px 0px rgb( 0 0 0 / 50%);
+    overflow: visible !important;
+    background: url(./base-ondas.svg) no-repeat -50px bottom !important;
+    height: 100px;
+    background-size: 600px;
+}
+
+.row-1{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.col-0 h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 20px;  
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00A84A;
+    display: flex;
+}
+
+.col-0-vdc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 20px;  
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00A84A;
+    display: flex;
+}
+
+
+.col-0 img {
+    width: 180px;
+    height: 75px;
+}
+
+input::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(42, 42, 42, 0.5);
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+    padding-top: 10px;
+}
+
+
+
+.submit {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+footer img{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    overflow: visible !important;
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10%; /* Descer footer */
+}
+
+.row{
+display: flex;
+margin-right: 10px;
+
+}
+
+/* FORM-PART */
+
+
+.formulario{
+    
+    align-items: center;
+    justify-content: center;
+    margin-left: 1%;
+    margin-right: 2%;
+    display: grid;
+    margin-top: 4%;
+}
+
+.mb-3{
+    width: 300px;
+}
+.col-01{
+    display: inline;
+    width: 90vh;
+}
+
+.container-1{
+    margin-top: -6%;
+}
+
+#rua, #localidade, #cpf{
+    width: 43vh;
+}
+
+#bairro, #uf, #cep{
+    width: 42vh;
+}
+
+.DataNasc input {
+    width: 264px;}
+
+    #Cur{
+        width: 20vh;
+    }
+
+
+.formulario input {
+    margin: 0.8rem 0.3rem;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 9px #0000001c;
+    font-size: 0.8rem;
+    position: relative;
+
+    
+   
+}
+
+.formulario input:hover{
+    background-color: #eeeeee75;
+}
+
+
+.formulario input:focus-visible{
+    outline: 1px solid #6c63ff;
+}
+
+.DataNasc input{
+    width: 305px ;
+    position: relative;
+  }
+
+
+/* CURSO CHOICE */
+
+.curso-title  {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000c0;
+    margin-top: 0.7rem;
+}
+
+.input-box input::placeholder {
+    color: #000000be;
+}
+
+.curso-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 .5rem;
+}
+
+.curso-input {
+    display: flex;
+    align-items: center;
+}
+
+.curso-input input {
+    margin-right: 0.35rem;
+}
+
+.curso-input label {
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+.row select {
+        margin: 0.6rem 0;
+        padding: 0.8rem 1.2rem;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 1px 1px 9px #0000001c;
+        font-size: 0.8rem;
+        margin-right: 10px;
+        
+        }
+.row select:hover{
+    background-color: #eeeeee75;
+}
+
+.row select:focus-visible{
+    outline: 1px solid #6c63ff;
+}
+
+/* Tabela de notas*/
+
+table{
+    display: absolute;
+    width: 50%;
+    margin: 15% auto;
+    padding-top: 130px;
+    margin-top: 200px;
+    border-collapse: collapse;
+    font-family: Arial,Helvetica,sans-serif; 
+    font-size: 14px;
+    text-align: left;
+
+}
+table th{
+    background: #f2f2f2;
+    padding: 3px;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+    text-align: center;
+}
+
+table td{
+    padding: 6px;
+    border-bottom: 1px solid #ddd ;
+    text-align: center;
+}
+table tr:hover{
+    background-color: #f5f5f5;
+}
+table input{
+    height: 30px;
+    width: 80px;
+}
+
+table input:focus-visible{
+    outline: 1px solid #6c63ff;
+}
+
+/* tirar setas input number */
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+/* butauuuun */
+
+.enviar{
+    height:42px ;
+    width: 99px;
+    background-color: #178f12;
+    color: #ffffffff;
+    border-style:hidden ;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 0px;
+    top: 20px;
+    margin-right:200px; 
+    bottom: 150px;
+  
+
+}
+
+.btn-container{
+    margin-top: -10%;
+    margin-left:auto;
+    text-align: right;
+}
+
+
+
+    @media screen and (max-width: 850px) {
+
+ 
+    .col-01{
+    width: -70vh;
+    /* 
+    .formulario{
+    background-color: rgb(0, 56, 225); */
+    }
+
+    }
+
+    @media screen and (max-width:703px) {
+        .row-1{
+            display: flex;
+            position: relative;
+            align-items: baseline;
+            flex-direction: row;
+            justify-content: space-around
+        }
+        .col-0 img {
+            width: 160px;
+        }
+
+       
+    }
+
+    @media screen and (max-width:663px) {
+       
+        .col-0 img {
+            width: 130px;
+        }
+
+       
+    }
+
+    @media screen and (max-width:658px) {
+       
+      .col-01{
+        width: 80vh;
+        }
+       
+        .DataNasc input{
+
+        width: 185px;
+
+        }
+        
+        .col{
+        margin-right: 3vh;
+        width: 39vh;
+        }
+        
+        .col-gen{
+        padding-inline: 5vh;
+        }
+
+        #rua, #localidade, #cpf{
+        width: 39vh;
+        }
+
+        #bairro, #uf, #cep{  
+         width: 38vh;
+        }
+
+
+
+
+       
+        
+      
+    }
+
+
+
+    
+    @media screen and (max-width:600px) {
+
+        .col-0 h3{
+        width: 40vh;
+        font-size: 40px;
+        }
+        .links-btn{
+        display: block;
+        }
+
+        
+
+    }
+
+    
+    @media screen and (max-width:592px) {
+
+        .formulario{     
+         margin-left: 2%;
+        }
+        .col{
+        margin-right: 1vh;
+        width: 39px;
+        width: 40vh;
+        }
+        #Def{
+        margin-left: 1vh;
+        }
+    }
+
+        
+    
+    @media screen and (max-width:569px) {
+
+     .col-01{
+        width: 70vh;
+     }
+
+     .mb-3{
+        margin-left: 5vh;
+     }
+
+     #rua, #localidade, #cpf{
+        margin-left: 5vh;
+        width: 35vh;
+    }
+
+    #bairro, #uf, #cep{
+        width: 34vh;
+    }
+
+    #Cur{
+        margin-right: 3vh;
+    }
+
+   
+    .DataNasc input {
+        width: 188px;
+        margin-left: 5vh;
+    }
+    #Def {
+        margin-left: 5vh;
+    }
+
+    .col-0-vdc{
+        margin-left: 4vh;
+    }
+
+    .col-0{
+        width: 90vh;
+
+    
+    }
+
+    .container-main-menu{
+        height: 125px;
+    }
+
+    .col-0 img{
+        width: 124px;
+    }
+    .col-0 h3{
+        width: 45vh;
+        font-size:45px;
+    }
+        
+    }
+
+     
+    @media screen and (max-width:568px) {
+
+        .col-0 h3 {
+            width: 45vh;
+            font-size: 45p;
+        }
+
+        
+        .header{
+        
+        background: linear-gradient(90deg, #204D37 0%, #00853B 40%);
+
+        }
+        
+    }
