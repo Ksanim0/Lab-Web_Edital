@@ -38,23 +38,60 @@
 
 
 /* INPUTS FORM */
+/* 
+
+
+
 .mb-3 input{
   width: 720px;
-}
+  position: relative;
+ 
+} 
+
+
 .row input{
   width: 350px;
+  position: relative;
   
-}
+  
+}  */
 
 
 
 
-.DataNasc input{
-  width: 305px ;
-}
+
+
+
+
 .fcc-btn:hover{
 
 color: #FFBD00;
 
 }
 
+
+
+
+
+
+/* 
+
+.container-0{
+  background-color: red;
+}
+.container-1{
+  background-color: rgb(58, 33, 83);
+}
+
+.area-formulario{
+  background-color: blue;
+}
+.formulario{
+  background-color: rgb(201, 201, 201);
+}
+.btn-container{
+  background-color: yellow;
+}
+ 
+
+ */

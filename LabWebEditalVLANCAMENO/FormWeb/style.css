@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 
@@ -14,13 +15,13 @@
     overflow: visible !important;
     background: url(./base-ondas.svg) no-repeat -50px bottom !important;
     height: 100px;
-    background-size: 700px;
+    background-size: 600px;
 }
 
 .row-1{
     display: flex;
+    position: relative;
     align-items: center;
-    flex-direction: row;
     justify-content: space-around;
     
 }
@@ -34,11 +35,6 @@
     align-items: center;
     text-align: center;
     text-transform: uppercase;
-
-
-
-
-
     color: #00A84A;
     display: flex;
 }
@@ -109,45 +105,59 @@ footer img{
 
 .row{
 display: flex;
-margin-right: 100px;
+margin-right: 10px;
 
 }
 
 /* FORM-PART */
 
 
-.area-formulario {
-    display: flex;
-    margin-left: 30%;
-  
-}
-
-.formulario { 
-
-    height: 400px;
-    width: 500px;
-    padding: 35px;
-    display: flex;
-    align-items: center;
-    padding-top: 20rem
-
-}
-
-.formulario form {
-    display: flex;
-    flex-direction: column;
-   
+.formulario{
     
+    align-items: center;
+    justify-content: center;
+    margin-left: 1%;
+    margin-right: 2%;
+    display: grid;
+    margin-top: 4%;
 }
+
+.mb-3{
+    width: 300px;
+}
+.col-01{
+    display: inline;
+    width: 90vh;
+}
+
+.container-1{
+    margin-top: -6%;
+}
+
+#rua, #localidade, #cpf{
+    width: 43vh;
+}
+
+#bairro, #uf, #cep{
+    width: 42vh;
+}
+
+.DataNasc input {
+    width: 264px;}
+
+    #Cur{
+        width: 20vh;
+    }
 
 
 .formulario input {
-    margin: 0.6rem 0.3rem;
+    margin: 0.8rem 0.3rem;
     padding: 0.8rem 1.2rem;
     border: none;
     border-radius: 10px;
     box-shadow: 1px 1px 9px #0000001c;
     font-size: 0.8rem;
+    position: relative;
 
     
    
@@ -161,6 +171,11 @@ margin-right: 100px;
 .formulario input:focus-visible{
     outline: 1px solid #6c63ff;
 }
+
+.DataNasc input{
+    width: 305px ;
+    position: relative;
+  }
 
 
 /* CURSO CHOICE */
@@ -218,9 +233,10 @@ margin-right: 100px;
 /* Tabela de notas*/
 
 table{
-    display: relative;
+    display: absolute;
     width: 50%;
     margin: 15% auto;
+    padding-top: 130px;
     margin-top: 200px;
     border-collapse: collapse;
     font-family: Arial,Helvetica,sans-serif; 
@@ -269,98 +285,204 @@ input[type=number] {
 .enviar{
     height:42px ;
     width: 99px;
-    position: relative;
     background-color: #178f12;
     color: #ffffffff;
     border-style:hidden ;
     cursor: pointer;
     border-radius: 4px;
     margin-bottom: 0px;
-    top: auto;
-    margin-left: 340px;
+    top: 20px;
+    margin-right:200px; 
     bottom: 150px;
   
 
 }
 
-button.enviar{
-    left: 700px;
+.btn-container{
+    margin-top: -10%;
+    margin-left:auto;
+    text-align: right;
 }
 
 
 
+    @media screen and (max-width: 850px) {
 
+ 
+    .col-01{
+    width: -70vh;
+    /* 
+    .formulario{
+    background-color: rgb(0, 56, 225); */
+    }
 
+    }
 
+    @media screen and (max-width:703px) {
+        .row-1{
+            display: flex;
+            position: relative;
+            align-items: baseline;
+            flex-direction: row;
+            justify-content: space-around
+        }
+        .col-0 img {
+            width: 160px;
+        }
 
-@media (max-width: 1900px) and (min-width: 1266px)  {
-
-    .enviar{
-        
-     }
-
-     
-     .formulario{
-        margin-bottom: 100px;
-        margin-left:185px ;
-        flex-direction:row ;
-        flex-wrap: wrap;
-        align-content: space-around;
-        justify-content: space-around;
-        align-items: normal;
-        
        
-     
-     }
+    }
 
-     .area-formulario{
-        margin-right: 50rem;
-     }
-
-     .table{
-        display: flex;
-        align-items: center;
-        
-     }
-
-
-
-}
-@media (max-width: 1266px) and (min-width: 951px)  {}
-
-
-@media (max-width: 950px) and (min-width: 900px)  {
-
-    .enviar{
-        margin-top: 200px;
-        margin-left: 50px;
-     }
-
-     
-     .formulario{
-        margin-bottom: 100px;
-        margin-left:7px ;
-        flex-direction:row ;
-        flex-wrap: wrap;
-        align-content: space-around;
-        justify-content: space-around;
-        align-items: normal;
-        
+    @media screen and (max-width:663px) {
        
-     
-     }
+        .col-0 img {
+            width: 130px;
+        }
 
-     .area-formulario{
-        margin-right: 50rem;
-     }
+       
+    }
 
-     .table{
-        display: flex;
-        align-items: center;
+    @media screen and (max-width:658px) {
+       
+      .col-01{
+        width: 80vh;
+        }
+       
+        .DataNasc input{
+
+        width: 185px;
+
+        }
         
+        .col{
+        margin-right: 3vh;
+        width: 39vh;
+        }
+        
+        .col-gen{
+        padding-inline: 5vh;
+        }
+
+        #rua, #localidade, #cpf{
+        width: 39vh;
+        }
+
+        #bairro, #uf, #cep{  
+         width: 38vh;
+        }
+
+
+
+
+       
+        
+      
+    }
+
+
+
+    
+    @media screen and (max-width:600px) {
+
+        .col-0 h3{
+        width: 40vh;
+        font-size: 40px;
+        }
+        .links-btn{
+        display: block;
+        }
+
+        
+
+    }
+
+    
+    @media screen and (max-width:592px) {
+
+        .formulario{     
+         margin-left: 2%;
+        }
+        .col{
+        margin-right: 1vh;
+        width: 39px;
+        width: 40vh;
+        }
+        #Def{
+        margin-left: 1vh;
+        }
+    }
+
+        
+    
+    @media screen and (max-width:569px) {
+
+     .col-01{
+        width: 70vh;
      }
 
+     .mb-3{
+        margin-left: 5vh;
+     }
 
+     #rua, #localidade, #cpf{
+        margin-left: 5vh;
+        width: 35vh;
+    }
 
-}
+    #bairro, #uf, #cep{
+        width: 34vh;
+    }
 
+    #Cur{
+        margin-right: 3vh;
+    }
+
+   
+    .DataNasc input {
+        width: 188px;
+        margin-left: 5vh;
+    }
+    #Def {
+        margin-left: 5vh;
+    }
+
+    .col-0-vdc{
+        margin-left: 4vh;
+    }
+
+    .col-0{
+        width: 90vh;
+
+    
+    }
+
+    .container-main-menu{
+        height: 125px;
+    }
+
+    .col-0 img{
+        width: 124px;
+    }
+    .col-0 h3{
+        width: 45vh;
+        font-size:45px;
+    }
+        
+    }
+
+     
+    @media screen and (max-width:568px) {
+
+        .col-0 h3 {
+            width: 45vh;
+            font-size: 45p;
+        }
+
+        
+        .header{
+        
+        background: linear-gradient(90deg, #204D37 0%, #00853B 40%);
+
+        }
+        
+    }
