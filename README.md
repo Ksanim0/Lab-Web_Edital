@@ -82,6 +82,13 @@ Inicie o servidor
   npm run start
 ```
 
+## 🛠 Backup SQL
+
+Here will be explained the BKP part of the code
+
+*Email and backup cronjob access credentials*
+
+!(https://github.com/LuscasArimate/EEEP_EditalBD/assets/93049848/24c6f9)
 
 
  
