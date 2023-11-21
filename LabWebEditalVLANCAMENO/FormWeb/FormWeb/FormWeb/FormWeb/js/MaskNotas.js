@@ -21,15 +21,3 @@
     }
 } 
 
-
-function validateInput() {
-  var inputValue = parseInt(document.getElementById('myInput').value);
-
-  if (inputValue > 10) {
-    document.getElementById('myInput').value = 10;
-  }
-}
-
-
-
-

@@ -16,8 +16,8 @@ function mascaraTel(mascaraInput) {
   }
   
   function mascaraCpf(mascaraInput) {
-    const tamanhoInput = document.getElementById('cpf').maxLength
-    let valorInput = document.getElementById('cpf').value
+    const tamanhoInput = document.getElementById('cpfInput').maxLength
+    let valorInput = document.getElementById('cpfInput').value
     console.log('tamanho máximo:', tamanhoInput, 'valor input:', valorInput)
     //let valorSemPonto = document.getElementById('telefoneInput').value.replace(/([^0-9]+)/g, "")
     const mascara = {
@@ -25,7 +25,7 @@ function mascaraTel(mascaraInput) {
     };
   
     if (valorInput.length === tamanhoInput) {
-      document.getElementById('cpf').value = mascara[mascaraInput]
+      document.getElementById('cpfInput').value = mascara[mascaraInput]
     } 
   }
   
@@ -80,4 +80,5 @@ function menos(){
   }
 }
 
-
+  
+  
